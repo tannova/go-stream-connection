@@ -16,6 +16,8 @@ type ReceiveHandler func(ctx context.Context, connKey any, connID string, messag
 type Connection interface {
 	// ID returns the connection ID.
 	ID() string
+	// ConnKey returns the metadata associated with the connection.
+	ConnKey() any
 	// Metadata returns the metadata associated with the connection.
 	Metadata() map[string]string
 	// EstablishedAt returns the time when the connection was established.

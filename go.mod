@@ -4,7 +4,6 @@ go 1.22.0
 
 require (
 	github.com/google/uuid v1.6.0
-	gitlab.nautilusgames.tech/marketplace/ndk v1.61.0
 	google.golang.org/grpc v1.71.0
 	google.golang.org/protobuf v1.36.5
 )
